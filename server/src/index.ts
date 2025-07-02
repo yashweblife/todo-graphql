@@ -18,7 +18,10 @@ const todos = [
         completed: false
     }
 ]
-const users = []
+const users = [{
+    id:"1",
+    name:"John"
+}]
 const resolver = {
     Query:{
         todos:()=>todos,
