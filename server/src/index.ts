@@ -39,6 +39,11 @@ const resolver = {
             console.log(user)
             users.push(user)
             return user
+        },
+        addTodo:(parent, { text })=>{
+            console.log(111)
+            console.log(parent, text)
+            return(todos[0])
         }
     }
 }
