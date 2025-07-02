@@ -1,0 +1,27 @@
+{
+  "name": "todo-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server":"cd server && npm run dev",
+    "dev:client":"cd client && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashweblife/todo-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yashweblife/todo-graphql/issues"
+  },
+  "homepage": "https://github.com/yashweblife/todo-graphql#readme",
+  "workspaces":[
+    "client",
+    "server"
+  ]
+}
