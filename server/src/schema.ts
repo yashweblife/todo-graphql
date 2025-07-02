@@ -18,8 +18,13 @@ export const typeDefs = `#graphql
     input AddUserInput {
         name: String!
     }
+    input AddTodoInput {
+        name: String!
+        completed: Boolean
+        text: String
+    }
     type Mutation {
         addUser(name: AddUserInput!): User
-        addTodo(text: String!): Todo
+        addTodo(data: AddTodoInput!): Todo
     }
 `
